@@ -1,0 +1,81 @@
+/*container-1*/
+.container-1 {
+    display: flex;
+    margin-bottom: 5%;
+border: 1px solid red; 
+flex-wrap: wrap;
+
+}
+
+
+
+#phone1-right {
+    align-self: flex-start;
+    order:2;
+    margin-top: -150px;
+    width: 580px;
+    border: 1px solid red;
+    padding: -5rem;
+
+}
+
+.header-text1 {
+    margin-left: 15%;
+width: 40vw;
+}
+
+.h-1 {
+    
+    font-size: 1.9rem;
+}
+
+
+.c-1 {
+    align-self: flex-start;
+    border: 1px solid red;
+    font-size: 1.1rem;
+}
+ /* container-2*/
+.container-2 {
+    
+    display: flex;
+    border: 1px solid red;
+    flex-wrap: wrap;
+    order: 1;
+    
+}
+
+#phone2-left {
+    
+    margin-top: -2rem;
+    width: 580px;
+    border: 1px solid red;
+    
+} 
+
+
+
+ .header-text2 {
+    
+    width: 40vw;
+    
+ }
+
+.c-2 {
+    align-self: flex-end;
+    border: 1px solid red;
+    font-size: 1.1rem;
+    
+}
+
+#p-margin {
+    margin-top: 7rem;
+}
+
+.header-bottom {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    border: 1px solid red;
+    font-size: 1.1rem;
+}

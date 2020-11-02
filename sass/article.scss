@@ -1,0 +1,46 @@
+.pic-moln {
+    width: 100%;
+}
+
+.moln {
+    position: relative;
+  text-align: center;
+  color: white;
+}
+
+.h-moln {
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(56,56,56);
+
+}
+
+.p-moln {
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(56,56,56);
+  padding-top: 15rem;
+  
+}
+
+
+@media screen and (max-width: 600px) {
+    .h-moln {
+      font-size: 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .p-moln {
+      font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .pic-moln {
+      height: 220px;
+    }
+}

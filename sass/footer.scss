@@ -1,0 +1,32 @@
+
+
+footer {
+    background-color:rgb(53, 53, 58);
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100vw;
+    height: 300px;
+    margin-top: -4px;
+    border: 1px solid red;
+}
+
+
+.footer-text {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-left {
+    width: 30vw;
+}
+
+.footer-right {
+    
+    width: 30vw;
+    
+} 
+
+.p-cursiv {
+    font-style: italic;
+}

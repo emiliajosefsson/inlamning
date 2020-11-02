@@ -1,0 +1,49 @@
+header {
+   position: relative;
+}
+
+#header-top {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    border: 1px solid red;
+}
+
+
+#img-top {
+    width: 110%;
+}
+img {
+    top: 10;
+    position: relative;
+    
+   
+}
+
+/*rubrik*/
+
+.intro-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: right;
+
+    margin-bottom: 10rem;
+    margin-top: -1rem;
+    border: 1px solid red;
+}
+
+#header-right {
+ margin-left: 10rem;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.header-p {
+    font-size: 22px;
+    padding-top: 50px;
+}
