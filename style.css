@@ -19,11 +19,10 @@ header {
   border: 1px solid red; }
 
 #img-top {
-  width: 110%; }
-
-img {
-  top: 10;
-  position: relative; }
+  width: 110%;
+  position: relative;
+  left: -50px;
+  top: 10; }
 
 /*rubrik*/
 .intro-right {
