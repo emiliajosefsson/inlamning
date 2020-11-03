@@ -1,13 +1,16 @@
 @media (max-width: 500px) {
     
+    p {
+        font-size: 0.8rem;
+    }
     #header-top {
         font-size: 1rem;
         margin-top: -1rem; 
     }
 
     #img-top {
-        width: 400px;
-        height: 300px;
+        width: 110vw;
+        left: -10px;
     }
     .intro-right {
         width: 80vw;
@@ -20,20 +23,21 @@
         display: flex;
         display: column;
         justify-content: center;
-        height: 75rem;
+        height: 60rem;
         padding-bottom: -1rem;
     }
 .header-text1 {
     width: 80vw;
+    margin-left: 0;
     
 }
 
     #header-right {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
     .header-p  {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
     .h-1 {
@@ -41,7 +45,7 @@
 }
 
     .c-1 {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 #phone1-right {
@@ -59,16 +63,22 @@ video {
         display: flex;
         display: column;
         justify-content: center;
-        height: 75rem;
+        height: 60rem;
+        padding-bottom: -10rem;
 }
 
 .header-text2 {
     width: 80vw;
+    padding-top: -10rem;
     
 }
-
     #phone2-left {
         width: 300px;
+        height: 500px;
+    }
+
+    .c-2 {
+        font-size: 0.8rem;
     }
  
     .header-bottom {
@@ -79,4 +89,8 @@ video {
        width: 100%;
        height: 240px;
    }
+}
+
+.footer-header {
+    font-size: 1rem;
 }

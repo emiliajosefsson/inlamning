@@ -49,6 +49,7 @@ h2 {
 /*container-1*/
 .container-1 {
   display: flex;
+  justify-content: center;
   margin-bottom: 5%;
   border: 1px solid red;
   flex-wrap: wrap; }
@@ -58,11 +59,9 @@ h2 {
   order: 2;
   margin-top: -150px;
   width: 580px;
-  border: 1px solid red;
-  padding: -5rem; }
+  border: 1px solid red; }
 
 .header-text1 {
-  margin-left: 15%;
   width: 40vw; }
 
 .h-1 {
@@ -76,9 +75,9 @@ h2 {
 /* container-2*/
 .container-2 {
   display: flex;
+  justify-content: center;
   border: 1px solid red;
-  flex-wrap: wrap;
-  order: 1; }
+  flex-wrap: wrap; }
 
 #phone2-left {
   margin-top: -2rem;
@@ -167,15 +166,18 @@ footer {
   width: 30vw; }
 
 .p-cursiv {
-  font-style: italic; }
+  font-style: italic;
+  text-align: right; }
 
 @media (max-width: 500px) {
+  p {
+    font-size: 0.8rem; }
   #header-top {
     font-size: 1rem;
     margin-top: -1rem; }
   #img-top {
-    width: 400px;
-    height: 300px; }
+    width: 110vw;
+    left: -10px; }
   .intro-right {
     width: 80vw;
     margin-left: 3rem; }
@@ -184,18 +186,19 @@ footer {
     display: flex;
     display: column;
     justify-content: center;
-    height: 75rem;
+    height: 60rem;
     padding-bottom: -1rem; }
   .header-text1 {
-    width: 80vw; }
+    width: 80vw;
+    margin-left: 0; }
   #header-right {
-    font-size: 2rem; }
+    font-size: 1.6rem; }
   .header-p {
-    font-size: 1.2rem; }
+    font-size: 1rem; }
   .h-1 {
     font-size: 1.2rem; }
   .c-1 {
-    font-size: 1rem; }
+    font-size: 0.8rem; }
   #phone1-right {
     width: 300px;
     margin-top: 1rem; }
@@ -208,13 +211,21 @@ footer {
     display: flex;
     display: column;
     justify-content: center;
-    height: 75rem; }
+    height: 60rem;
+    padding-bottom: -10rem; }
   .header-text2 {
-    width: 80vw; }
+    width: 80vw;
+    padding-top: -10rem; }
   #phone2-left {
-    width: 300px; }
+    width: 300px;
+    height: 500px; }
+  .c-2 {
+    font-size: 0.8rem; }
   .header-bottom {
     width: 80vw; }
   .pic-moln {
     width: 100%;
     height: 240px; } }
+
+.footer-header {
+  font-size: 1rem; }
