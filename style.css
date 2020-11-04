@@ -15,8 +15,7 @@ header {
 #header-top {
   position: absolute;
   top: 10%;
-  left: 45%;
-  border: 1px solid red; }
+  left: 45%; }
 
 #img-top {
   width: 110%;
@@ -32,8 +31,7 @@ header {
   flex-direction: column;
   text-align: right;
   margin-bottom: 10rem;
-  margin-top: -1rem;
-  border: 1px solid red; }
+  margin-top: -1rem; }
 
 #header-right {
   margin-left: 10rem; }
@@ -51,15 +49,13 @@ h2 {
   display: flex;
   justify-content: center;
   margin-bottom: 5%;
-  border: 1px solid red;
   flex-wrap: wrap; }
 
 #phone1-right {
   align-self: flex-start;
   order: 2;
   margin-top: -150px;
-  width: 580px;
-  border: 1px solid red; }
+  width: 580px; }
 
 .header-text1 {
   width: 40vw; }
@@ -76,31 +72,35 @@ h2 {
 .container-2 {
   display: flex;
   justify-content: center;
-  border: 1px solid red;
   flex-wrap: wrap; }
 
 #phone2-left {
   margin-top: -2rem;
-  width: 580px;
-  border: 1px solid red; }
+  width: 580px; }
 
 .header-text2 {
   width: 40vw; }
 
 .c-2 {
   align-self: flex-end;
-  border: 1px solid red;
-  font-size: 1.1rem; }
+  font-size: 1.1rem;
+  text-align: right; }
 
 #p-margin {
   margin-top: 7rem; }
 
-.header-bottom {
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 5%;
+.header-text3 {
+  /*margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;*/
   border: 1px solid red;
-  font-size: 1.1rem; }
+  font-size: 1.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.c-4 {
+  width: 80vw; }
 
 .grey-box {
   display: flex;
@@ -133,18 +133,6 @@ h2 {
   color: #383838;
   padding-top: 15rem; }
 
-@media screen and (max-width: 600px) {
-  .h-moln {
-    font-size: 20px; } }
-
-@media screen and (max-width: 600px) {
-  .p-moln {
-    font-size: 13px; } }
-
-@media screen and (max-width: 600px) {
-  .pic-moln {
-    height: 220px; } }
-
 footer {
   background-color: #35353a;
   color: white;
@@ -169,6 +157,60 @@ footer {
   font-style: italic;
   text-align: right; }
 
+@media (max-width: 800px) {
+  #header-top {
+    font-size: 1.5rem;
+    margin-top: -1rem; }
+  #header-right {
+    font-size: 2.5rem; }
+  .header-p {
+    font-size: 1.2rem; }
+  .container-1 {
+    margin-top: -7rem;
+    display: flex;
+    display: column;
+    justify-content: center;
+    height: 60rem;
+    padding-bottom: -1rem;
+    margin-bottom: -5%; }
+  .header-text1 {
+    width: 80vw;
+    margin-left: 0; }
+  .h-1 {
+    font-size: 1.2rem; }
+  .c-1 {
+    font-size: 1rem; }
+  #phone1-right {
+    width: 350px;
+    margin-top: 0.2rem; }
+  video {
+    width: 95vw; }
+  .container-2 {
+    display: flex;
+    display: column;
+    justify-content: center;
+    height: 51rem; }
+  .header-text2 {
+    width: 80vw;
+    padding-top: -10rem; }
+  #phone2-left {
+    width: 350px;
+    height: 500px;
+    margin-bottom: -12rem; }
+  .c-2 {
+    font-size: 1rem;
+    text-align: left; }
+  .header-text3 {
+    margin-top: -15%; }
+  .c-4 {
+    font-size: 1rem; }
+  .h-moln {
+    font-size: 2rem;
+    padding-bottom: 3rem; }
+  .p-moln {
+    padding-bottom: 20%;
+    width: 80vw; } }
+
 @media (max-width: 500px) {
   p {
     font-size: 0.8rem; }
@@ -180,7 +222,11 @@ footer {
     left: -10px; }
   .intro-right {
     width: 80vw;
-    margin-left: 3rem; }
+    margin-left: 2.5rem; }
+  #header-right {
+    font-size: 1.6rem; }
+  .header-p {
+    font-size: 1rem; }
   .container-1 {
     margin-top: -7rem;
     display: flex;
@@ -191,41 +237,45 @@ footer {
   .header-text1 {
     width: 80vw;
     margin-left: 0; }
-  #header-right {
-    font-size: 1.6rem; }
-  .header-p {
-    font-size: 1rem; }
   .h-1 {
     font-size: 1.2rem; }
   .c-1 {
     font-size: 0.8rem; }
   #phone1-right {
     width: 300px;
-    margin-top: 1rem; }
+    margin-top: 0.2rem; }
   .grey-box {
     height: 500px; }
   video {
-    width: 350px;
-    height: 170; }
+    width: 95vw; }
   .container-2 {
     display: flex;
     display: column;
     justify-content: center;
-    height: 60rem;
-    padding-bottom: -10rem; }
+    height: 51rem;
+    padding-bottom: -12rem; }
   .header-text2 {
     width: 80vw;
     padding-top: -10rem; }
   #phone2-left {
     width: 300px;
-    height: 500px; }
+    height: 500px;
+    margin-bottom: -12rem; }
   .c-2 {
+    font-size: 0.8rem;
+    text-align: left; }
+  .header-text3 {
+    margin-top: -20%; }
+  .c-4 {
     font-size: 0.8rem; }
-  .header-bottom {
-    width: 80vw; }
   .pic-moln {
     width: 100%;
-    height: 240px; } }
-
-.footer-header {
-  font-size: 1rem; }
+    height: 300px; }
+  .h-moln {
+    font-size: 1.8rem;
+    padding-bottom: 3.5rem; }
+  .p-moln {
+    padding-bottom: 4rem;
+    width: 90vw; }
+  .footer-header {
+    font-size: 1rem; } }
