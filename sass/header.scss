@@ -10,9 +10,9 @@ header {
 
 
 #img-top {
-    width: 110%;
+    width: 110%; //gör bild större än sidan
     position: relative;
-    left: -50px;
+    left: -50px; //flyttarbilden lite ut på vänstra kanten
     top: 10;
 }
 
@@ -24,7 +24,6 @@ header {
     align-items: center;
     flex-direction: column;
     text-align: right;
-
     margin-bottom: 10rem;
     margin-top: -1rem;
 

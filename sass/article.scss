@@ -7,21 +7,21 @@
   text-align: center;
   color: white;
 }
-
+/*text på bild samt positionering*/
 .h-moln {
 position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); /*satt den i mitten av bilden*/
   color: rgb(56,56,56);
 
 }
-
+/*text på bild samt positionering*/
 .p-moln {
 position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); /*satt den i mitten av bilden*/
   color: rgb(56,56,56);
   padding-top: 15rem;
   

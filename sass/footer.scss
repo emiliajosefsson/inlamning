@@ -1,5 +1,3 @@
-
-
 footer {
     background-color:rgb(53, 53, 58);
     color: white;
@@ -8,13 +6,12 @@ footer {
     width: 100vw;
     height: 300px;
     margin-top: -4px;
-    border: 1px solid red;
-}
 
+}
 
 .footer-text {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
 }
 
 .footer-left {
@@ -29,5 +26,5 @@ footer {
 
 .p-cursiv {
     font-style: italic;
-    text-align: right;
+    text-align: right; 
 }
